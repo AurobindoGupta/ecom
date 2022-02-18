@@ -7,7 +7,7 @@
 .navBar {
   padding: 0.2rem 10.313rem;
   align-items: center;
-  background: var(--navBar-color);
+  background: var(--stdWhite-color);
 }
 .pageContent {
   display: flex;
@@ -55,7 +55,7 @@
 }
 
 .style1-group .preview-card-title {
-  background: var(--navBar-color);
+  background: var(--stdWhite-color);
   text-align: center;
   position: absolute;
   top: 45%;
