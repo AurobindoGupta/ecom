@@ -1,0 +1,66 @@
+
+@import url(/styles.css);
+.page-content {
+  max-height: fit-content;
+  width: 100%;
+}
+.product-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.sideNav {
+  flex-grow: 3;
+  width: 30%;
+  min-width: 9rem;
+  max-width: 20rem;
+  background: var(--stdWhite-color);
+  height: 100%;
+}
+.main-content {
+  flex-grow: 6;
+  padding: 2.25rem;
+}
+.sideNav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sideNav-content {
+  height: fit-content;
+}
+.slider {
+  width: 100%;
+}
+.slider-values {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+}
+.sideNav-title {
+  padding: 1rem 0;
+}
+
+.indi-product {
+  width: fit-content;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-img-container{
+  background: var(--primary-color);
+}
+.product-list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
