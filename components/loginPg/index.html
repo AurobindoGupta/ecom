@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Aurobindo Gupta" />
+  <meta name="description" content="Personal Ecommerce Website" />
+  <link rel="icon" type="image/x-icon" href="Utils/images/iconpanda16.ico" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://panda-ui-neog.netlify.app/rootStyles.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Ecommerce</title>
+</head>
+
+<body>
+  <!-- ................BASE CONTAINER............. -->
+  <div class="baseContainer">
+    <!-- ................NAV BAR............. -->
+
+    <nav class="navBar">
+      <div class="heroContainer">
+        <p class="heroTitle">MyWebsite</p>
+      </div>
+      <div class="navBar-searchBar">
+        <form class="searchBar">
+          <input class="searchBar-input" placeholder="Search" />
+        </form>
+      </div>
+      <ul class="navLinks">
+        <li class="navLinksBtn">
+          <button class="btn btn-secondary">Login</button>
+        </li>
+        <li class="navLinksBtn" onclick="window.location.href=''">
+          <div class="ic-badge container">
+            <i class="fa fa-heart ic"></i>
+            <div class="iconBadge">0</div>
+          </div>
+        </li>
+        <li class="navLinksBtn" onclick="window.location.href=''">
+          <div class="ic-badge Container">
+            <i class="fa fa-shopping-cart ic"></i>
+            <div class="iconBadge">0</div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- ................NAV BAR............. -->
+    <!-- ................PAGE CONTENT ............................... -->
+
+    <div class="page-content">
+      <div class="login-Modal">
+        <div class="modal-container">
+          <div class="modal-title">
+            <p class="fw-bold fs-L">Login</p>
+          </div>
+          <div class="form-input">
+            <div class="input-details">
+              <label class="input-label" for="input-email">Email</label>
+              <input type="email" placeholder="jhondoe@gmail.com" class="input-space full-form input-email"  id="input-email" required/>
+              <label class="input-label" for="input-pass">Password</label>
+              <input type="password"  placeholder="1234567890" maxlength="10" class="input-space full-form input-pass"  id="input-pass" required/>
+            </div>
+            <div class="form-utils">
+              <div class="util-input">
+                <input type="checkbox" id="remember" />
+                <label for="remember">Remember Me</label>
+              </div>
+             <button class="btn btn-link">Forgot Password?</button>
+            </div>
+          </div>
+          <div class="modal-btn">
+            <button class="btn btn-primary">Login</button>
+          <button class="btn btn-link">Create New Account ></button>
+          </div>
+          
+        </div>
+      </div>
+    
+      <!-- ................PAGE CONTENT ............................... -->
+      <!-- ................FOOTER ............................... -->
+
+      <!-- ................FOOTER ............................... -->
+    </div>
+    <!-- ................BASE CONTAINER............. -->
+</body>
+
+</html>
