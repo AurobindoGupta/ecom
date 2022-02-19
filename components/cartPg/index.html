@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Aurobindo Gupta" />
+  <meta name="description" content="Personal Ecommerce Website" />
+  <link rel="icon" type="image/x-icon" href="Utils/images/iconpanda16.ico" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://panda-ui-neog.netlify.app/rootStyles.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Ecommerce</title>
+</head>
+
+<body>
+  <!-- ................BASE CONTAINER............. -->
+  <div class="baseContainer">
+    <!-- ................NAV BAR............. -->
+
+    <nav class="navBar">
+      <div class="heroContainer">
+        <p class="heroTitle">MyWebsite</p>
+      </div>
+      <div class="navBar-searchBar">
+        <form class="searchBar">
+          <input class="searchBar-input" placeholder="Search" />
+        </form>
+      </div>
+      <ul class="navLinks">
+        <li class="navLinksBtn">
+          <button class="btn btn-secondary">Login</button>
+        </li>
+        <li class="navLinksBtn" onclick="window.location.href=''">
+          <div class="ic-badge container">
+            <i class="fa fa-heart ic"></i>
+            <div class="iconBadge">3</div>
+          </div>
+        </li>
+        <li class="navLinksBtn" onclick="window.location.href=''">
+          <div class="ic-badge Container">
+            <i class="fa fa-shopping-cart ic"></i>
+            <div class="iconBadge">0</div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- ................NAV BAR............. -->
+    <!-- ................PAGE CONTENT ............................... -->
+
+    <div class="page-content">
+      <p class="card-pg-title fw-bold fs-M">My CART(2)</p>
+      <div class="cart-pg">
+        <div class="cart-content">
+          <div class="card card-horizontal">
+            <div class="card-img-container card-horizontal">
+              <i class="fa fa-heart-o icon-badge"></i>
+              <img
+                class="card-img card-horizontal"
+                src="/Utils/images/image 1.png"
+                alt="Card image"
+              />
+            </div>
+            <div class="card-details card-horizontal">
+              <div class="card-title card-horizontal">
+                <p class="title-heading">Winter Jacket</p>
+                <p class="title-subHeading">Sub-title</p>
+                <div class="price">
+                  <p class="current-price">Rs. 5500</p>
+                </div>
+              </div>
+              <div class="card-button card-horizontal">
+                <button class="btn btn-primary button-add card-horizontal">
+                  Remove from Cart
+                </button>
+                <button class="btn btn-secondary button-add card-horizontal">
+                  Add to Wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bill-content">
+          <div class="bill-header fw-semiBold">
+            <p>PRICE DETAILS</p>
+          </div>
+          <hr />
+          <div class="order-content">
+            <div class="cost-total indi-row">
+              <p>Price(2 Items)</p>
+              <p>Rs.5409</p>
+            </div>
+            <div class="discount-total indi-row">
+              <p>Discount</p>
+              <p>- Rs.1207</p>
+            </div>
+            <div class="dilevery-total indi-row">
+              <p>Delivery Charges</p>
+              <p>Rs.500</p>
+            </div>
+            <hr />
+            <div class="total-amt indi-row fw-semiBold">
+              <p>TOTAL AMOUNT</p>
+              <p>Rs.3508</p>
+            </div>
+            <hr />
+            <p>You will save Rs.1999 on this order</p>
+          </div>
+          <div>
+            <button class="btn btn-primary bill-btn">PLACE ORDER</button>
+          </div>
+        </div>
+      </div>
+      <!-- ................PAGE CONTENT ............................... -->
+      <!-- ................FOOTER ............................... -->
+
+      <!-- ................FOOTER ............................... -->
+    </div>
+    <!-- ................BASE CONTAINER............. -->
+</body>
+
+</html>

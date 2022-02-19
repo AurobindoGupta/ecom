@@ -1,0 +1,34 @@
+@import url(/styles.css);
+
+:root{
+  line-height: 2rem;
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: fit-content;
+}
+.wishlist-pg{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-img-container{
+  background: var(--primary-color);
+}
+
+.wishlist-pg-title{
+  padding: 2rem;
+}
+.card-button .button-add{
+  font-size: 1rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+.card-img-container .icon-badge{
+  color: var(--baseRed-color);
+}

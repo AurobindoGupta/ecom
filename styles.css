@@ -20,6 +20,9 @@
 .navLinksBtn {
   padding: 0.5rem;
 }
+.navLinksBtn .btn.btn-secondary{
+  padding: 0 1.5rem;
+}
 .navBar-searchBar {
   width: 40%;
 }

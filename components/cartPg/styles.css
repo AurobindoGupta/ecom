@@ -1,0 +1,53 @@
+
+:root{
+  line-height: 2rem;
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: fit-content;
+}
+.cart-pg{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.bill-content{
+  background: var(--stdWhite-color);
+  max-width: 30%;
+  height: fit-content;
+  padding: 2.5rem;
+  border-radius: 0.3rem;
+ 
+}
+.indi-row{
+  display: flex;
+  justify-content: space-between;
+}
+.bill-btn{
+  width: 100%;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+}
+.card{
+  background: var(--stdWhite-color);
+}
+.card.card-horizontal{
+  max-width: 80%;
+}
+.card-img-container.card-horizontal{
+  background: var(--primary-color);
+}
+.button-add.card-horizontal{
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+.card-pg-title{
+  padding: 2rem;
+}
