@@ -8,5 +8,5 @@
 * Cart Management
 * Wishlist Management
 * Authentication
-* Sign-up
-* Login
+  - Sign-up
+  - Login
