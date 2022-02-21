@@ -23,7 +23,7 @@
 
     <nav class="navBar">
       <div class="heroContainer">
-        <p class="heroTitle">MyWebsite</p>
+        <p class="heroTitle" onclick="window.location.href='/'">MyWebsite</p>
       </div>
       <div class="navBar-searchBar">
         <form class="searchBar">
@@ -32,7 +32,7 @@
       </div>
       <ul class="navLinks">
         <li class="navLinksBtn">
-          <button class="btn btn-secondary" onclick="window.location.href='/components/loginPg/index.html'">Login</button>
+          <button class="btn btn-secondary btn-outlined logout" onclick="window.location.href='/components/loginPg/index.html'">LogOut</button>
         </li>
         <li class="navLinksBtn">
           <div class="ic-badge container">
@@ -40,7 +40,7 @@
             <div class="iconBadge">3</div>
           </div>
         </li>
-        <li class="navLinksBtn" >
+        <li class="navLinksBtn" onclick="window.location.href='/components/cartPg/index.html'">
           <div class="ic-badge Container">
             <i class="fa fa-shopping-cart ic"></i>
             <div class="iconBadge">0</div>
