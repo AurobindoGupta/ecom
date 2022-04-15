@@ -77,6 +77,14 @@
   max-height: 20rem;
   flex-grow: 5;
   margin-bottom: 1rem;
+  position: relative;
+}
+.center-preview-btn{
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  right: 45%;
+  width: fit-content;
 }
 .center-img-container {
   max-width: 100%;
